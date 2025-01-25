@@ -74,6 +74,54 @@ GET /page/{pageNo} - Fetch paginated employee data with sort functionality.
  GET /registration: Shows the registration form.
 POST /registration: Handles the user registration by accepting user data and creating a new account. On successful registration, it redirects to the registration page with a success message (?success).
 
+
+Landing page
+
+ 
+
+If you already have an account, you can directly provide your credentials and click 'Sign In' to log in.
+Else By clicking register here button you can create an account
+ 
+
+By providing all the information you can create an account 
+
+ 
+
+Once you click the Register button, you will get a popup like the one below then click on Login Here button to log in
+
+ 
+
+Home Page After Login
+
+ 
+
+By clicking add employee button we can add an employee
+ 
+Fill in the employee details and click on the save employee button to the same employee details in DB
+I have introduced the pagination so that we do not need to scroll infinite times, it’s already sorted in ascending order and based on name we can click on the page number or next button. 
+ 
+ 
+
+Update:
+We can update/ edit the employee details by clicking the update button.
+
+ 
+
+Delete:
+
+we can delete the employee by clicking the delete button
+
+After deleting count became 8 from 9
+
+ 
+
+Logout:
+
+ 
+
+ 
+
+
 1. Employee Management
 1.1 View All Employees
 GET /
